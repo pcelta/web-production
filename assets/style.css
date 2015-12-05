@@ -1,6 +1,8 @@
 #header {
     height: 60px;
     background-color: #000;
+    position: fixed;
+    z-index: 10;
 }
 
 #header ul {
@@ -10,6 +12,10 @@
 
 #header ul li {
     float: left;
+}
+
+#header ul li.last {
+    margin-left: 210px;
 }
 
 #header ul li a {
@@ -24,12 +30,41 @@
     color: #FFF;
 }
 
+#header ul li a img {
+    height: 45px;
+    margin-top: 9px;
+}
+
 .content-block {
-    height: 3450px;
+    height: 750px;
+    padding-top: 70px
+}
+
+.content-block.first{
+    margin-top: 50px;
+    padding-top: 0px
+}
+
+.content-block#home {
+    background-image: url("../banners/omelhor.jpg");
+    background-repeat: no-repeat;
+    background-position: 47% -137%; 
 }
 
 .content-block#localizacao {
     height: 465px;
+    padding-top: 60px
+}
+
+.content-block#galeria{
+    min-width: 810px;
+    background: url("../assets/img/background.jpg") no-repeat center top;
+    padding: 75px;
+}
+
+.content-block#galeria a img{
+    height: 183px;
+    margin-left: 45px;
 }
 
 .content-block#telefone {
@@ -59,9 +94,3 @@
 .content-block-noimg {
     background-color: #FFF6CE;
 }
-
-/**
-
-  text-transform: uppercase;
-  font-family: 'Strait', sans-serif;
-*/

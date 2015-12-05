@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="jquery/lightbox.css" rel="stylesheet">
         <link href="assets/style.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,12 +21,56 @@
                 <li><a target="#cardapio" href="javascript: void(0)">Cardápio</a><li>
                 <li><a target="#galeria" href="javascript: void(0)">Galeria</a><li>
                 <li><a target="#localizacao" href="javascript: void(0)">Localização</a><li>
+                <li class="last">
+                    <a target="#localizacao" href="javascript: void(0)">
+                        <img src="assets/img/facebook-icon.jpg">
+                    </a>
+                <li>
             </ul>
         </div>
+        <div id="home" class="col-md-12 content-block first"></div>
         <div id="quemsomos" class="col-md-12 content-block"></div>
         <div id="ochefe" class="col-md-12 content-block content-block-noimg"></div>
         <div id="cardapio" class="col-md-12 content-block"></div>
-        <div id="galeria" class="col-md-12 content-block content-block-noimg"></div>
+        <div id="galeria" class="col-md-12 content-block content-block-noimg">
+            <a href="gallery/hamburguer1.jpg" 
+               data-lightbox="image-1" 
+               data-title="My caption"
+               class="col-md-">
+                <img src="gallery/hamburguer1.jpg" alt=""/>
+            </a>
+            <a href="gallery/hamburguer2.jpg" 
+               data-lightbox="image-1" 
+               data-title="My caption"
+               class="col-md-4">
+                <img src="gallery/hamburguer2.jpg" alt=""/>
+            </a>
+            <a href="gallery/hamburguer3.jpg" 
+               data-lightbox="image-1" 
+               data-title="My caption"
+               class="col-md-4">
+                <img src="gallery/hamburguer3.jpg" alt=""/>
+            </a><br /><br /><br />
+
+            <a href="gallery/hamburguer1.jpg" 
+               data-lightbox="image-1" 
+               data-title="My caption"
+               class="col-md-">
+                <img src="gallery/hamburguer1.jpg" alt=""/>
+            </a>
+            <a href="gallery/hamburguer2.jpg" 
+               data-lightbox="image-1" 
+               data-title="My caption"
+               class="col-md-4">
+                <img src="gallery/hamburguer2.jpg" alt=""/>
+            </a>
+            <a href="gallery/hamburguer3.jpg" 
+               data-lightbox="image-1" 
+               data-title="My caption"
+               class="col-md-4">
+                <img src="gallery/hamburguer3.jpg" alt=""/>
+            </a>
+        </div>
         <div id="localizacao" class="col-md-12 content-block content-block-noimg" style="max-width:100%;list-style:none; transition: none;overflow:hidden;">
             <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
                 <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Av.+Paulista,+1374+-+Bela+Vista,+São+Paulo+-+State+of+São+Paulo,+Brazil&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
@@ -46,6 +91,7 @@
         <script type="text/javascript" src="bootstrap/js/jquery.min.1.11.3.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="jquery/jquery-scrollto.js"></script>
+        <script type="text/javascript" src="jquery/lightbox.min.js"></script>
 
         <script type="text/javascript">
         $("#header-list li a").click(function() {
