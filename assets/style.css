@@ -1,3 +1,7 @@
+.font-default {
+    font-family: 'Strait', sans-serif;
+}
+
 #header {
     height: 60px;
     background-color: #000;
@@ -51,20 +55,21 @@
     background-position: 47% -137%; 
 }
 
+.content-block#ochefe img.ochefe {
+   height: 671px;
+}
+
 .content-block#localizacao {
     height: 465px;
     padding-top: 60px
 }
-
-.content-block#galeria{
-    min-width: 810px;
-    background: url("../assets/img/background.jpg") no-repeat center top;
-    padding: 75px;
-}
-
 .content-block#galeria a img{
     height: 183px;
     margin-left: 45px;
+}
+
+.content-block#galeria .row{
+    margin-bottom: 60px;
 }
 
 .content-block#telefone {
@@ -84,6 +89,16 @@
     font-size: 14px;
     text-align: center;
     padding-top: 10px;
+}
+
+.content-block#quemsomos div#text{
+    padding-right: 64px;
+}
+
+.content-block#quemsomos div p{
+      margin-top: 20px;
+      line-height: 21px;
+      text-align: justify
 }
 
 .content-block#address h1 {
