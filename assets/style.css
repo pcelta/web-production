@@ -1,0 +1,67 @@
+#header {
+    height: 60px;
+    background-color: #000;
+}
+
+#header ul {
+    list-style: none;
+    margin-left: 222px;
+}
+
+#header ul li {
+    float: left;
+}
+
+#header ul li a {
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 61px;
+    line-height: 60px;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Strait', sans-serif;
+    color: #FFF;
+}
+
+.content-block {
+    height: 3450px;
+}
+
+.content-block#localizacao {
+    height: 465px;
+}
+
+.content-block#telefone {
+    height: 45px;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    padding-top: 15px;
+}
+
+.content-block#address {
+    height: 111px;
+    background: #e33526;
+    font-family: 'Strait', sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content-block#address h1 {
+    font-family: 'Strait', sans-serif;
+    font-weight: lighter;
+}
+
+.content-block-noimg {
+    background-color: #FFF6CE;
+}
+
+/**
+
+  text-transform: uppercase;
+  font-family: 'Strait', sans-serif;
+*/
