@@ -1,3 +1,8 @@
+@font-face {
+        font-family: "Chunkfive";
+        src: url(../assets/fonts/Chunkfive.otf);
+}
+
 .font-default {
     font-family: 'Strait', sans-serif;
 }
@@ -35,14 +40,14 @@
 }
 
 #header ul li a {
-    padding-left: 35px;
+    padding-left: 31px;
     padding-right: 35px;
     height: 61px;
     line-height: 60px;
     display: block;
     float: left;
     text-transform: uppercase;
-    font-family: 'Strait', sans-serif;
+    font-family: Chunkfive;
     color: #FFF;
 }
 
@@ -120,4 +125,8 @@
 
 .content-block-noimg {
     background-color: #FFF6CE;
+}
+
+h2 {
+    font-family: Chunkfive;
 }
